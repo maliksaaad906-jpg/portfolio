@@ -55,7 +55,7 @@ export default function Projects() {
             <div className="row g-4">
                 {projects.map((project)=> (
                     <div className="col-lg-4" key={project.title}>
-                        <div className="card bg-light border-secondary h-100 shadow">
+                        <div className="card rounded-5 bg-light border-secondary h-100 shadow">
                             <div className="card-body p-4">
                                 <p className="text-primary fw-semibold mb-2">{project.type}</p>
                                 <h4 className="fw-bold text-dark">{project.title}</h4>
