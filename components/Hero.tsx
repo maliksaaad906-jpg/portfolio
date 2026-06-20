@@ -20,7 +20,7 @@ export default function Hero() {
                 <a href="#projects" className="custom-btn">
                     View Projects
                 </a>
-                <a href="#contact" className="custom-btn-outline">Contact Me</a>
+                <a href="/resume.pdf" className="custom-btn-outline">Get Resume</a>
               </div>
             </div>
             <div className="col-lg-6 text-center mt-5 mt-lg-0">
