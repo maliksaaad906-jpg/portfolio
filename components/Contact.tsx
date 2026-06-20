@@ -19,8 +19,8 @@ export default function Contact() {
                             📍 Melbourne, Australia
                             </p>
                             <div className="d-flex justify-content-center gap-3 mt-4">
-                                <a href="https://github.com/maliksaaad906-jpg" className="btn btn-outline-dark">GitHub</a>
-                                <a href="www.linkedin.com/in/mohammad-saad-0a81ab203" className="btn btn-primary">LinkedIn</a>
+                                <a href="https://github.com/maliksaaad906-jpg" className="custom-btn-outline">GitHub</a>
+                                <a href="www.linkedin.com/in/mohammad-saad-0a81ab203" className="custom-btn">LinkedIn</a>
                             </div>
                         </div>
                     </div>

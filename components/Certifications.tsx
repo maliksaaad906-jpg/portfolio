@@ -18,9 +18,9 @@ export default function Certifications() {
         <div className="row justify-content-center">
           {certificates.map((cert) => (
             <div className="col-lg-6" key={cert.title}>
-              <div className="card rounded-4 border-secondary shadow h-100">
+              <div className="card custom-card rounded-4 bg-light border-secondary shadow h-100">
                 <div className="card-body">
-                  <h4 className="text-dark fw-bold">
+                  <h4 className="text-light fw-bold">
                     {cert.title}
                   </h4>
 
@@ -28,7 +28,7 @@ export default function Certifications() {
                     {cert.issuer}
                   </p>
 
-                  <p className="text-muted">
+                  <p className="text-light">
                     Completed: {cert.year}
                   </p>
                 </div>

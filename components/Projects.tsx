@@ -49,23 +49,23 @@ export default function Projects() {
         },
       ];
   return (
-    <section className="py-5" id="projects">
+    <section className="py-5 bg-light" id="projects">
         <div className="container py-5">
-            <h2 className="fw-bold display-5 text-center  mb-5">Projects</h2>
+            <h2 className="fw-bold display-5 text-center text-dark  mb-5">Projects</h2>
             <div className="row g-4">
                 {projects.map((project)=> (
-                    <div className="col-lg-4" key={project.title}>
-                        <div className="card rounded-5 bg-light border-secondary h-100 shadow">
+                    <div className="col-lg-4 " key={project.title}>
+                        <div className="card custom-card rounded-5 bg-[#0f172a] border-secondary h-100 shadow">
                             <div className="card-body p-4">
-                                <p className="text-primary fw-semibold mb-2">{project.type}</p>
-                                <h4 className="fw-bold text-dark">{project.title}</h4>
-                                <p className="lead text-dark mt-3">{project.description}</p>
+                                <p className="text-light fw-semibold mb-2">{project.type}</p>
+                                <h4 className="fw-bold text-light">{project.title}</h4>
+                                <p className="lead text-light mt-3">{project.description}</p>
                                 <div className="d-flex flex-wrap gap-2 mb-3">
                                     {project.tech.map((item)=> (
-                                        <span className="badge bg-primary" key={item}>{item}</span>
+                                        <span className="badge-tech bg-outline-light" key={item}>{item}</span>
                                     ))}
                                 </div>
-                                <ul className="text-dark small">
+                                <ul className="text-light small">
                                     {project.points.map((point)=>(
                                         <li className="mb-2 " key={point}>{point}</li>
 
@@ -73,7 +73,7 @@ export default function Projects() {
 
                                 </ul>
                                 <div className="d-flex gap-2 mt-4">
-                                    <a href={project.github} className="btn btn-outline-light btn-sm" target="_blank">GitHub</a>
+                                    <a href={project.github} className="btn rounded-5 btn-outline-light btn-sm" target="_blank">GitHub</a>
                                 </div>
                             </div>
                         </div>

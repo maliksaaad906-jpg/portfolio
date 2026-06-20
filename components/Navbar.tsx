@@ -21,7 +21,7 @@ export default function Navbar () {
                         <li className="nav-item"><a href="#contact" className="nav-link">Contact</a>
                         </li>
                     </ul>
-                    <a href="/resume.pdf" className="btn btn-primary ms-lg-3">Get Resume</a>
+                    <a href="/resume.pdf" className="custom-btn">Get Resume</a>
                 </div>
             </div>
         </nav>

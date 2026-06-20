@@ -13,3 +13,160 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Hero Section */
+
+
+/* Section Headings */
+.section-title {
+  color: white;
+  font-weight: 800;
+}
+
+/* Cards */
+.custom-card {
+  background: linear-gradient(
+    135deg,
+    #172554 0%,
+    #1e3a8a 100%
+  );
+
+  border: 1px solid rgba(96, 165, 250, 0.15);
+
+  border-radius: 18px;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 20px 40px rgba(37, 99, 235, 0.3),
+    0 0 20px rgba(59, 130, 246, 0.2);
+}
+
+/* Tech Badges */
+.badge-tech {
+  background: rgba(37, 99, 235, 0.15);
+
+  color: #bfdbfe;
+
+  border: 1px solid rgba(147, 197, 253, 0.25);
+
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  font-size: 0.85rem;
+}
+
+/* Navbar */
+.navbar {
+  background: #111827 !important;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #60a5fa !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+/* Footer */
+footer {
+  background: #111827;
+}
+.hero-avatar {
+  border-radius: 50%;
+
+  border: 5px solid rgba(59, 130, 246, 0.4);
+
+  box-shadow:
+    0 0 30px rgba(59, 130, 246, 0.4),
+    0 0 80px rgba(59, 130, 246, 0.2);
+
+  transition: transform 0.3s ease;
+}
+
+.hero-avatar:hover {
+  transform: scale(1.03);
+}
+.custom-btn {
+  background: linear-gradient(
+    135deg,
+    #0d2f79,
+    #1165ee
+  );
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 28px;
+
+  border-radius: 25px;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  transform: translateY(-3px);
+
+  color: white;
+
+  box-shadow:
+    0 10px 25px rgba(37, 99, 235, 0.4);
+}
+
+.custom-btn-outline {
+  border: 2px solid #3b82f6;
+
+  color: #93c5fd;
+
+  padding: 12px 28px;
+
+  border-radius: 25px;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.custom-btn-outline:hover {
+  background: #2563eb;
+
+  color: white;
+
+  transform: translateY(-3px);
+}
