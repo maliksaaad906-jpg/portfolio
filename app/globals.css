@@ -19,6 +19,12 @@ section {
 }
 
 /* Hero Section */
+.prm-bg {
+  background-color: #fcdb32;
+}
+.scnd-bg{
+  background-color: #141d38;
+}
 
 
 /* Section Headings */
@@ -83,7 +89,7 @@ section {
 }
 
 .nav-link:hover {
-  color: #60a5fa !important;
+  color: #fcdb32 !important;
 }
 
 /* Buttons */
@@ -104,7 +110,7 @@ footer {
 .hero-avatar {
   border-radius: 50%;
 
-  border: 5px solid rgba(59, 130, 246, 0.4);
+  border: 5px solid rgba(49, 99, 180, 0.215);
 
   box-shadow:
     0 0 30px rgba(59, 130, 246, 0.4),
@@ -116,14 +122,27 @@ footer {
 .hero-avatar:hover {
   transform: scale(1.03);
 }
-.custom-btn {
+.prm-btn{
   background: linear-gradient(
     135deg,
-    #0d2f79,
-    #1165ee
+    #fcdb32,
+    #9b8c3d
   );
-
+  color: #141d38;
+}
+.scnd-btn{
+  background: linear-gradient(
+    320deg,
+    #141d38,
+    #4968c8
+    
+  );
   color: white;
+}
+.custom-btn {
+ 
+
+  
 
   border: none;
 
@@ -138,7 +157,7 @@ footer {
   transition: all 0.3s ease;
 }
 
-.custom-btn:hover {
+.scnd-btn:hover {
   transform: translateY(-3px);
 
   color: white;
@@ -146,11 +165,18 @@ footer {
   box-shadow:
     0 10px 25px rgba(37, 99, 235, 0.4);
 }
+.prm-btn:hover {
+  transform: translateY(-3px);
 
+  color: #141d38;
+
+  box-shadow:
+    0 10px 25px rgba(239, 233, 62, 0.4);
+}
 .custom-btn-outline {
-  border: 2px solid #3b82f6;
+  border: 2px solid #141d38;
 
-  color: #93c5fd;
+  color: #141d38;
 
   padding: 12px 28px;
 
@@ -164,7 +190,7 @@ footer {
 }
 
 .custom-btn-outline:hover {
-  background: #2563eb;
+  background: #141d38;
 
   color: white;
 

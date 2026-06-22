@@ -59,9 +59,9 @@ export default function Skills() {
         },
       ];
   return (
-    <section className="py-5" id="skills">
+    <section className="py-5 scnd-bg" id="skills">
         <div className="container py-5">
-            <h2 className="section-title display-5 text-center mb-5">Technical Skills</h2>
+            <h2 className="section-title display-5 text-center mb-5">What I Bring To The Table</h2>
             <div className="row g-4">
                 {skills.map((skill)=>(
                     <div className="col-md-6 col-lg-3" key={skill.title}>

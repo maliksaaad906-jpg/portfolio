@@ -49,7 +49,7 @@ export default function Projects() {
         },
       ];
   return (
-    <section className="py-5 bg-light" id="projects">
+    <section className="py-5 prm-bg" id="projects">
         <div className="container py-5">
             <h2 className="fw-bold display-5 text-center text-dark  mb-5">Projects</h2>
             <div className="row g-4">

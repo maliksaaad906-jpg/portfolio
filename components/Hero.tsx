@@ -3,21 +3,21 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-   <section className='bg-light hero-section py-5'>
+   <section className='prm-bg py-5'>
      <div className="container py-5">
         <div className="row align-items-center min-vh-75">
             <div className="col-lg-6">
-                <p className="text-primary fw-semibold mb-2">
+                <h5 className="text-primary fw-semibold mb-2">
                     Graduate Software Developer
-                </p>
+                </h5>
                 <h1 className="text-dark display-3 fw-bold mb-3">
                 Hi, I&apos;m Mohammad Saad
                 </h1>
-                <p className="lead text-muted mb-4">Computer Science graduate focused on building responsive web and
+                <p className="lead text-dark mb-4">Computer Science graduate focused on building responsive web and
               mobile applications using React, Next.js, React Native,
               TypeScript, Firebase, and modern software engineering tools.</p>
               <div className="d-flex gap-3 ">
-                <a href="#projects" className="custom-btn">
+                <a href="#projects" className="custom-btn scnd-btn">
                     View Projects
                 </a>
                 <a href="/resume.pdf" className="custom-btn-outline">Get Resume</a>
